@@ -1,0 +1,88 @@
+.pages {
+  background-color: #f9eac2;
+  height: 100vh;
+}
+.headPages {
+  //   width: 100%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.headText {
+  font-size: 35px;
+  font-weight: 300;
+}
+.inputZone {
+  margin-top: 70px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.inputItemQuiz {
+  width: 80%;
+  height: 20%;
+  background-color: #ecfdf1;
+  border: 1px dashed #000;
+  border-radius: 4px;
+  &:focus {
+    outline: none;
+  }
+}
+.inputItem {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 70%;
+  height: 30px;
+  background-color: #ecfdf1;
+  border: 1px dashed #000;
+  border-radius: 4px;
+  &:focus {
+    outline: none;
+  }
+}
+.allChoice {
+}
+.choice {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  align-items: baseline;
+}
+.choice:first-child {
+  display: flex;
+  margin-top: 0;
+  align-items: baseline;
+}
+.submitBth {
+  width: 30%;
+  height: 45px;
+  cursor: pointer;
+  background-color: hsl(37, 100%, 80%);
+  border: 1px solid #000;
+  border-radius: 30px;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    border: 1px solid #000;
+    background-color: #ffe2b4;
+  }
+}
+.btnZone {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+.labelAns {
+  display: flex;
+  align-items: baseline;
+}
+.SubTextextLabelAns {
+  font-size: 9px;
+}
+.questionZone {
+  margin-left: 20px;
+}
+
