@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from '../axios'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import classes from './index.module.scss'
@@ -12,7 +12,7 @@ const AddQuiz = () => {
 
   function addQuiz(e: any) {
     e.preventDefault()
-    axios.post(`http://localhost:3001/quiz`, {
+    axios.post(`/quiz`, {
       question: question,
       allAns: [Ans1, Ans2, Ans3, Ans4],
       anwser: anwser,
