@@ -1,4 +1,4 @@
-import axios from '../axios'
+import axios from '../../axios'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import classes from './index.module.scss'
